@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Monda');
+
+header{
+    border: solid 3px rgb(185, 9, 9);
+    background-color: lightseagreen;
+}
+    h1{
+        display: inline;
+    }
+        #titulo {
+            font-family: 'Michroma', sans-serif;
+            font-style: bold;
+            font-size: 40px;
+            background-color: lightseagreen;
+            border-left: 10px solid blue;
+            padding-left: 10px;
+        }
+        #subtitulo {
+            font-family: 'Monda', sans-serif;
+            font-style: italic;
+            font-size: 20px;            
+            background-color: lightseagreen;
+            border-left: 10px solid green;
+            padding-left: 30px;
+
+        }
+        .bar{
+            font-family: 'Monda', sans-serif;
+            background-color: hsl(268, 90%, 59%);
+            border: solid 2px #06a147;
+            padding: 4px;
+            letter-spacing: 1.5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
+
+        }        
+        .bar a{
+            font-family: 'Monda', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            background-color: lightseagreen;
+            border-left: 10px solid green;
+
+        }
+        .bar a:hover{
+            font-family: 'Monda', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            background-color: lightseagreen;
+            border-left: 10px solid green;
+            border-radius: 10px ;
+        }    
+/* </header> */
+body{
+    background-image: url("../assets/bank.jpg");
+}
